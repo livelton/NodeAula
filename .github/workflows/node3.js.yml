@@ -22,5 +22,5 @@ jobs:
         node-version: 16.x
         cache: 'npm'
  
-    - run: npm run i
+    - run: npm i
     - run: npm test
